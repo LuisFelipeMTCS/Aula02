@@ -1,13 +1,13 @@
-package br.ueg.faculdade;
+package br.ueg.prog;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class FaculdadeApplication {
+public class ProgApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(FaculdadeApplication.class, args);
+		SpringApplication.run(ProgApplication.class, args);
 	}
 
 }

@@ -1,10 +1,10 @@
-package br.ueg.faculdade;
+package br.ueg.prog;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class FaculdadeApplicationTests {
+class ProgApplicationTests {
 
 	@Test
 	void contextLoads() {
