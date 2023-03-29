@@ -1,0 +1,12 @@
+{"properties": [
+  {
+    "name": "api.api.base",
+    "type": "java.lang.String",
+    "description": "A description for 'api.api.base'"
+  },
+  {
+    "name": "app.api.base",
+    "type": "java.lang.String",
+    "description": "A description for 'app.api.base'"
+  }
+]}

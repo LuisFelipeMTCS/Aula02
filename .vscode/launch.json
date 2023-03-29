@@ -1,0 +1,36 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"type": "java",
+			"name": "Launch Java Program",
+			"request": "launch",
+			"mainClass": ""
+		},
+		{
+			"name": "PowerShell Interactive Session",
+			"type": "PowerShell",
+			"request": "launch",
+			"cwd": "${cwd}"
+		},
+	{
+		"type": "java",
+		"name": "Launch Java Program",
+		"request": "launch",
+		"mainClass": ""
+	},
+		{
+			"type": "totvs_language_debug",
+			"request": "launch",
+			"name": "TOTVS Language Debug",
+			"program": "${command:AskForProgramName}",
+			"cwb": "${workspaceFolder}",
+			"smartclientBin": "../totvs/bin/smartclient/smartclient.exe",
+			"isMultiSession": true,
+			"enableTableSync": true
+		}
+	],
+	"lastPrograms": [],
+	"lastProgramExecuted": "<cancel>",
+	"lastProgramArguments": []
+}

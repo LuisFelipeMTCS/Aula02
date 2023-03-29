@@ -43,14 +43,19 @@ public class ProgApplication {
 				a1.setId(2L);
 				a1.setPrimeiroNome("Outro");
 				a1.setSegundoNome("Pereira");
+				a1.setEMail("Teste@teste.com.br");
 				a1 = alunoRepository.save(a1);
 				System.out.println("Aluno2" + a1);
-				List<Aluno> lista = alunoRepository.findAll();
-				lista.forEach( item ->{
-					System.out.println("Aluno" + item);
-				});
+				imprimirLista(alunoRepository);
+				alunoRepository.delete(a1);
 			};
 
+		}
+		private void imprimirLista(AlunoRepository alunoRepository) {
+			List<Aluno> lista = alunoRepository.findAll();
+			lista.forEach( item ->{
+				System.out.println("Aluno" + item);
+			});
 		}
 
 }
